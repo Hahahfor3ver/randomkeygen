@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Key Generator</title>
+    <script>
+        function generateKey() {
+            var randomKey = "keysystem_" + Math.random().toString(36).substr(2, 8); // Generates a random 8-character string
+            document.getElementById("keyOutput").innerText = randomKey;
+        }
+    </script>
+</head>
+<body>
+    <h1>Random Key Generator</h1>
+    <p>Click the button below to generate a random key:</p>
+    <button onclick="generateKey()">Generate Key</button>
+    <p id="keyOutput" style="font-weight: bold;"></p>
+</body>
+</html>
