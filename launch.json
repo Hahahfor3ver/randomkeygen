@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Open keysystem.html",
+            "file": "c:\\Users\\Loren\\Downloads\\website\\keysystem.html",
+            "url": "http://localhost:5500/keysystem.html"
+        }
+    ]
+}
